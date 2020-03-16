@@ -20,3 +20,10 @@ exports["Google Search App"] = function(test) {
     test.ok(a.inApp === true);
     test.done();
 };
+
+exports["Not in app"] = function(test) {
+    const s = "Mozilla/5.0 (Linux; U; Android 2.3; en-us; LG-P930 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1";
+    const a = ua(s);
+    test.ok(a.inApp === false);
+    test.done();
+};
