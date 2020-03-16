@@ -7,11 +7,11 @@
     "type": "git",
     "url": "git://github.com/mflorence99/useragent-lite.git"
   },
-  "author":     {
-      "name": "Mark Florence",
-      "email" : "mflo999@gmail.com",
-      "url": "http://mflorence99.github.io/"
-    },
+  "author": {
+    "name": "Mark Florence",
+    "email": "mflo999@gmail.com",
+    "url": "http://mflorence99.github.io/"
+  },
   "keywords": [
     "useragent",
     "express",
